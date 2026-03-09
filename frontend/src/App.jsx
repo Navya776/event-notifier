@@ -32,6 +32,8 @@ export default function App() {
   const [form, setForm] = useState(BLANK_FORM);
   const [adding, setAdding] = useState(false);
   const [filter, setFilter] = useState("all");
+  const [rsvp, setRsvp] = useState({});
+  const [saved, setSaved] = useState([]);
   const [toast, setToast] = useState(null);
   const titleRef = useRef();
 
